@@ -1,5 +1,5 @@
 {
-    "name": "LucasCardial/laravel-passport-mongodb",
+    "name": "lucas-cardial/laravel-passport-mongodb",
     "description": "Laravel Passport provides OAuth2 server support to Laravel.",
     "keywords": ["laravel", "passport", "oauth"],
     "license": "MIT",
