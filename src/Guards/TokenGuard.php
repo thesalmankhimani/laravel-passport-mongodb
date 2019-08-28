@@ -1,16 +1,16 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Guards;
+namespace SalKhimani\LaravelPassportMongoDB\Guards;
 
 use Exception;
 use Firebase\JWT\JWT;
-use LucasCardial\LaravelPassportMongoDB\Token;
+use SalKhimani\LaravelPassportMongoDB\Token;
 use Illuminate\Http\Request;
-use LucasCardial\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\Passport;
 use Illuminate\Container\Container;
-use LucasCardial\LaravelPassportMongoDB\TransientToken;
-use LucasCardial\LaravelPassportMongoDB\TokenRepository;
-use LucasCardial\LaravelPassportMongoDB\ClientRepository;
+use SalKhimani\LaravelPassportMongoDB\TransientToken;
+use SalKhimani\LaravelPassportMongoDB\TokenRepository;
+use SalKhimani\LaravelPassportMongoDB\ClientRepository;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Encryption\Encrypter;

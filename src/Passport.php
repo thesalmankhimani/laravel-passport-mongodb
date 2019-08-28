@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB;
+namespace SalKhimani\LaravelPassportMongoDB;
 
 use DateInterval;
 use Carbon\Carbon;
@@ -106,7 +106,7 @@ class Passport
         };
 
         $options = array_merge($options, [
-            'namespace' => '\LucasCardial\LaravelPassportMongoDB\Http\Controllers',
+            'namespace' => '\SalKhimani\LaravelPassportMongoDB\Http\Controllers',
         ]);
 
         Route::group($options, function ($router) use ($callback) {

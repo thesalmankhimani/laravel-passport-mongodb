@@ -1,11 +1,11 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Middleware;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
-use LucasCardial\LaravelPassportMongoDB\Passport;
-use LucasCardial\LaravelPassportMongoDB\ApiTokenCookieFactory;
+use SalKhimani\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\ApiTokenCookieFactory;
 
 class CreateFreshApiToken
 {

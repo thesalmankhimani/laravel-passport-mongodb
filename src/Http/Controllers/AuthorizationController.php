@@ -1,12 +1,12 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
-use LucasCardial\LaravelPassportMongoDB\Passport;
-use LucasCardial\LaravelPassportMongoDB\Bridge\User;
-use LucasCardial\LaravelPassportMongoDB\TokenRepository;
-use LucasCardial\LaravelPassportMongoDB\ClientRepository;
+use SalKhimani\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\Bridge\User;
+use SalKhimani\LaravelPassportMongoDB\TokenRepository;
+use SalKhimani\LaravelPassportMongoDB\ClientRepository;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response as Psr7Response;

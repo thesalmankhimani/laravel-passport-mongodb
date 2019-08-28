@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

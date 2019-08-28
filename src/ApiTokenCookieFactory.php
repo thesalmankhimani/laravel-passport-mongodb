@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB;
+namespace SalKhimani\LaravelPassportMongoDB;
 
 use Carbon\Carbon;
 use Firebase\JWT\JWT;

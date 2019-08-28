@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Bridge;
+namespace SalKhimani\LaravelPassportMongoDB\Bridge;
 
 use League\OAuth2\Server\Entities\Traits\EntityTrait;
 use League\OAuth2\Server\Entities\ScopeEntityInterface;

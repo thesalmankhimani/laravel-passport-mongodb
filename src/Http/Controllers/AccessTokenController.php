@@ -1,9 +1,9 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
-use LucasCardial\LaravelPassportMongoDB\Passport;
-use LucasCardial\LaravelPassportMongoDB\TokenRepository;
+use SalKhimani\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\TokenRepository;
 use Lcobucci\JWT\Parser as JwtParser;
 use Zend\Diactoros\Response as Psr7Response;
 use Psr\Http\Message\ServerRequestInterface;

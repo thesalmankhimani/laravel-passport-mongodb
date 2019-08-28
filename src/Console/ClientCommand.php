@@ -1,12 +1,12 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Console;
+namespace SalKhimani\LaravelPassportMongoDB\Console;
 
 use DateTime;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use LucasCardial\LaravelPassportMongoDB\ClientRepository;
-use LucasCardial\LaravelPassportMongoDB\PersonalAccessClient;
+use SalKhimani\LaravelPassportMongoDB\ClientRepository;
+use SalKhimani\LaravelPassportMongoDB\PersonalAccessClient;
 
 class ClientCommand extends Command
 {
@@ -30,7 +30,7 @@ class ClientCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \LucasCardial\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \SalKhimani\LaravelPassportMongoDB\ClientRepository  $clients
      * @return void
      */
     public function handle(ClientRepository $clients)
@@ -49,7 +49,7 @@ class ClientCommand extends Command
     /**
      * Create a new personal access client.
      *
-     * @param  \LucasCardial\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \SalKhimani\LaravelPassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createPersonalClient(ClientRepository $clients)
@@ -75,7 +75,7 @@ class ClientCommand extends Command
     /**
      * Create a new password grant client.
      *
-     * @param  \LucasCardial\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \SalKhimani\LaravelPassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createPasswordClient(ClientRepository $clients)
@@ -97,7 +97,7 @@ class ClientCommand extends Command
     /**
      * Create a authorization code client.
      *
-     * @param  \LucasCardial\LaravelPassportMongoDB\ClientRepository  $clients
+     * @param  \SalKhimani\LaravelPassportMongoDB\ClientRepository  $clients
      * @return void
      */
     protected function createAuthCodeClient(ClientRepository $clients)

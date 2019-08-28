@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB;
+namespace SalKhimani\LaravelPassportMongoDB;
 
 use Illuminate\Container\Container;
 
@@ -9,7 +9,7 @@ trait HasApiTokens
     /**
      * The current access token for the authentication user.
      *
-     * @var \LucasCardial\LaravelPassportMongoDB\Token
+     * @var \SalKhimani\LaravelPassportMongoDB\Token
      */
     protected $accessToken;
 
@@ -36,7 +36,7 @@ trait HasApiTokens
     /**
      * Get the current access token being used by the user.
      *
-     * @return \LucasCardial\LaravelPassportMongoDB\Token|null
+     * @return \SalKhimani\LaravelPassportMongoDB\Token|null
      */
     public function token()
     {
@@ -59,7 +59,7 @@ trait HasApiTokens
      *
      * @param  string  $name
      * @param  array  $scopes
-     * @return \LucasCardial\LaravelPassportMongoDB\PersonalAccessTokenResult
+     * @return \SalKhimani\LaravelPassportMongoDB\PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = [])
     {
@@ -71,7 +71,7 @@ trait HasApiTokens
     /**
      * Set the current access token for the user.
      *
-     * @param  \LucasCardial\LaravelPassportMongoDB\Token  $accessToken
+     * @param  \SalKhimani\LaravelPassportMongoDB\Token  $accessToken
      * @return $this
      */
     public function withAccessToken($accessToken)

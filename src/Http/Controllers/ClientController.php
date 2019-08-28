@@ -1,11 +1,11 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use LucasCardial\LaravelPassportMongoDB\Client;
-use LucasCardial\LaravelPassportMongoDB\ClientRepository;
+use SalKhimani\LaravelPassportMongoDB\Client;
+use SalKhimani\LaravelPassportMongoDB\ClientRepository;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 

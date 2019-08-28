@@ -1,8 +1,8 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
-use LucasCardial\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\Passport;
 
 class ScopeController
 {

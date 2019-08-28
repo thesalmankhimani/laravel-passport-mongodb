@@ -1,11 +1,11 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
 use Exception;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Http\Request;
-use LucasCardial\LaravelPassportMongoDB\Bridge\User;
+use SalKhimani\LaravelPassportMongoDB\Bridge\User;
 
 trait RetrievesAuthRequestFromSession
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Console;
+namespace SalKhimani\LaravelPassportMongoDB\Console;
 
 use phpseclib\Crypt\RSA;
-use LucasCardial\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\Passport;
 use Illuminate\Console\Command;
 
 class KeysCommand extends Command

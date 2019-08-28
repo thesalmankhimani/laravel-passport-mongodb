@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB;
+namespace SalKhimani\LaravelPassportMongoDB;
 
 use Carbon\Carbon;
 use Jenssegers\Mongodb\Eloquent\Model;

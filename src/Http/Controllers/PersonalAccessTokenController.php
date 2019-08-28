@@ -1,11 +1,11 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Controllers;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use LucasCardial\LaravelPassportMongoDB\Passport;
-use LucasCardial\LaravelPassportMongoDB\PersonalAccessTokenResult;
+use SalKhimani\LaravelPassportMongoDB\Passport;
+use SalKhimani\LaravelPassportMongoDB\PersonalAccessTokenResult;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 
 class PersonalAccessTokenController

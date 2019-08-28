@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Middleware;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Middleware;
 
 use Closure;
 use League\OAuth2\Server\ResourceServer;

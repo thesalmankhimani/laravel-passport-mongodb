@@ -1,9 +1,9 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Http\Middleware;
+namespace SalKhimani\LaravelPassportMongoDB\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use LucasCardial\LaravelPassportMongoDB\Exceptions\MissingScopeException;
+use SalKhimani\LaravelPassportMongoDB\Exceptions\MissingScopeException;
 
 class CheckForAnyScope
 {

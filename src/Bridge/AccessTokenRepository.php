@@ -1,11 +1,11 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Bridge;
+namespace SalKhimani\LaravelPassportMongoDB\Bridge;
 
 use DateTime;
 use Illuminate\Database\Connection;
 use Illuminate\Contracts\Events\Dispatcher;
-use LucasCardial\LaravelPassportMongoDB\Events\AccessTokenCreated;
+use SalKhimani\LaravelPassportMongoDB\Events\AccessTokenCreated;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Entities\AccessTokenEntityInterface;
 use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB;
+namespace SalKhimani\LaravelPassportMongoDB;
 
 use Zend\Diactoros\Response;
 use Zend\Diactoros\ServerRequest;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Console;
+namespace SalKhimani\LaravelPassportMongoDB\Console;
 
 use Illuminate\Console\Command;
 

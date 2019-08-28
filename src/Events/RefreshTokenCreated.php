@@ -1,6 +1,6 @@
 <?php
 
-namespace LucasCardial\LaravelPassportMongoDB\Events;
+namespace SalKhimani\LaravelPassportMongoDB\Events;
 
 class RefreshTokenCreated
 {
